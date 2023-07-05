@@ -34,4 +34,4 @@ const frameworks = [
     return finalizedFrameworks;
   }
 
-  const randomizedFrameworks = shuffle(duplicatedFrameworks);
+ export const randomizedFrameworks = shuffle(duplicatedFrameworks);

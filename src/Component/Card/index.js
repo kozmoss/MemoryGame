@@ -1,7 +1,7 @@
 import React,{ useState,useEffect }  from 'react'
 import questionİmage from "../../assets/question2.png"
 import { useDispatch, useSelector } from 'react-redux';
-import {resetGame,closeCard,failMatch,openCard,correctMatch} from '../../redux/CardSlice'
+import {closeCard,failMatch,openCard,correctMatch} from '../../redux/CardSlice'
   const Card = ({framework}) => {
     const [open,setOpen] = useState(false);
     const {activeCards,cards,total} = useSelector((state) => state.cards)

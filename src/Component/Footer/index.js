@@ -2,8 +2,6 @@ import React from 'react'
 import {
     FaGithub,
     FaLinkedin,
-    FaFreeCodeCamp,
-    FaRegUserCircle,
   } from "react-icons/fa";
 
 
